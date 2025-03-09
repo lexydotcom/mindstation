@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-btn {
+    background: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Landing Page */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content h1 {
+    font-size: 36px;
+}
+
+.cta-btn {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Dashboard */
+.sidebar {
+    width: 200px;
+    background-color: #f3eae3;
+    padding: 20px;
+}
+
+.dashboard {
+    margin-left: 220px;
+}
+
+.cards, .course-grid {
+    display: flex;
+    gap: 10px;
+}
+
+.card, .course-card {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pomodoro {
+    background: #b14545;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.timer {
+    font-size: 24px;
+}
+
+#start-timer {
+    background: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
