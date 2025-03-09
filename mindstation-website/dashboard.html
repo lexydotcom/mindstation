@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindStation Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">mindstation</div>
+        <ul>
+            <li>my courses</li>
+            <li>my flash cards</li>
+            <li>my study guides</li>
+        </ul>
+    </aside>
+
+    <main class="dashboard">
+        <div class="greeting">
+            <h2>good morning, Lexy.</h2>
+            <p>welcome to your digital workspace.</p>
+        </div>
+
+        <section class="recently-viewed">
+            <h3>recently viewed</h3>
+            <div class="cards">
+                <div class="card">cine 340</div>
+                <div class="card">info 456</div>
+            </div>
+        </section>
+
+        <section class="courses">
+            <h3>courses</h3>
+            <p>click to add new courses, or visit previous ones!</p>
+            <div class="course-grid">
+                <div class="course-card">+</div>
+                <div class="course-card">cpsc 110</div>
+                <div class="course-card">neuro 567</div>
+                <div class="course-card">psyc 305</div>
+            </div>
+        </section>
+
+        <div class="pomodoro">
+            <h4>Pomodoro Timer</h4>
+            <div class="timer">25:00</div>
+            <button id="start-timer">START</button>
+        </div>
+
+        <div class="character">
+            <img src="assets/character.png" alt="Smiling character">
+            <p>studying doesn't have to be so stressful!</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
